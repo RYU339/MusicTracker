@@ -1,0 +1,36 @@
+.MusicInput {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5em 0 0.5em;
+
+    h2 {
+        text-align: center;
+        line-height: 50px;
+        margin: 15px;
+        color: #086e7d;
+    }
+    input {
+        height: 1.5em;
+    }
+    textarea {
+        height: 4em;
+    }
+    input,
+    textarea {
+        border: 1px solid gray;
+        margin-bottom: 0.5em;
+        // border: none;
+        // background-color: #ffc920;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 3px;
+    }
+    button {
+        border: 1px solid gray;
+        // border: none;
+        // color: #086e7d;
+        // background-color: #fff89a;
+        height: 1.5em;
+        border-radius: 3px;
+    }
+}
